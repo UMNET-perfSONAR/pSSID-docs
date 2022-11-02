@@ -24,4 +24,11 @@ https://old-releases.ubuntu.com/releases/18.04.5/ubuntu-18.04.4-preinstalled-ser
 
 RPi flasher
 
+ - https://github.com/umnET-perfSONAR/ansible-playbook-pssid-daemon
+
+ - https://github.com/umNET-perfSONAR/ansible-playbook-pssid-gui
+
+ - https://github.com/umnET-perfSONAR/ansible-playbook-pssid-database
+
+ - 
 
