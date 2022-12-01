@@ -17,6 +17,7 @@
 ### Analyzing Data
 - ELK
 
+[RPi bootstrap instructions](RPi_bootstrap.MD)
 
 
 RPi4 Ubuntu Install:
