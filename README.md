@@ -15,11 +15,11 @@
 - Large-scale deployment & provisioning with Ansible
 
 ### pSSID Daemon
-'''
+```
 curl -o /etc/apt/sources.list.d/perfsonar-5.0-snapshot.list  http://downloads.perfsonar.net/debian/perfsonar-5.0-snapshot.list
 curl http://downloads.perfsonar.net/debian/perfsonar-snapshot.gpg.key | apt-key add -
 apt install perfsonar-toolkit
-'''
+```
 
 ### Analyzing Data
 - ELK
