@@ -50,4 +50,4 @@ apt-get install -y perfsonar-toolkit
  - 
 
 ### pSSID Data Analytics
-TODO: update this https://github.com/wmarcoyu/pssid-data-analytics-pipeline
+https://github.com/UMNET-perfSONAR/pssid-data-pipeline
