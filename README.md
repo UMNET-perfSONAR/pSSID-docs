@@ -25,29 +25,16 @@ https://github.com/UMNET-perfSONAR/ansible-playbook-pssid-GUI-deploy
 https://github.com/UMNET-perfSONAR/ansible-playbook-pssid-GUI-build-publish
 
 ### pSSID Daemon
-- Prereqs
-- Installation
-- Usage
-- Large-scale deployment & provisioning with Ansible
+The GUI Deployment scripts will install the following playbook and corresponding roles on the GUI server. Or, user can manually setting it up by clone the roles under provisioning playbook's roles folder.
 
-### pSSID Daemon
-```
-curl -o /etc/apt/sources.list.d/perfsonar-5.0-snapshot.list  http://downloads.perfsonar.net/debian/perfsonar-5.0-snapshot.list
-curl http://downloads.perfsonar.net/debian/perfsonar-snapshot.gpg.key | apt-key add -
-apt-get update
-apt-get install -y perfsonar-toolkit
-```
+Source project: https://github.com/UMNET-perfSONAR/pssid-daemon/blob/main/pssid-daemon.py
 
-[RPi bootstrap instructions](RPi_bootstrap.MD)
+Provisioning playbook
+https://github.com/UMNET-perfSONAR/ansible-playbook-pssid-daemon
 
-
- - https://github.com/umnET-perfSONAR/ansible-playbook-pssid-daemon
-
- - https://github.com/umNET-perfSONAR/ansible-playbook-pssid-gui
-
- - https://github.com/umnET-perfSONAR/ansible-playbook-pssid-database
-
- - 
+Associated roles
+https://github.com/UMNET-perfSONAR/ansible-role-pssid-daemon
+https://github.com/UMNET-perfSONAR/ansible-role-pssid-VT-tools
 
 ### pSSID Data Analytics
 https://github.com/UMNET-perfSONAR/pssid-data-pipeline
