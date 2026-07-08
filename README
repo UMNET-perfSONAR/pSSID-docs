@@ -1,0 +1,11 @@
+Documentation for the pSSID Documentation
+-----------------------------------------
+
+1. All content is written in markdown and rendered automatically
+2. Markdown file names are defined in the TREE const in main.js
+3. To add a new file, it must first be added to the tree in the 
+   script
+3. Use the python script create-files.py to automatically create 
+   placeholder markdown files based on the names defined in the 
+   tree (if they do not already exist)
+4. All markdown files can be found in the docs/ directory
