@@ -17,7 +17,7 @@ ip netns delete pssid_wlan0
 ```
 5. You can alternatively choose to keep the namespace and run commands through it like this `ip netns exec pssid_wlan0 command_here`
 6. Rerun the `wpa_supplicant` command, there might be a problem with the config syntax
-### Editing WPA Config
+## Editing WPA Config
 1. If it is just the formatting that needs to be changed, that can be done by modifying `ansible-playbook-pssid-daemon/roles/ansible-role-pssid-VT-tools/templates/wpa_supplicant.conf.j2`
 2. If actual variable values need to be changed, you need the vault password and can edit the file `ansible-playbook-pssid-daemon/roles/ansible-role-pssid-VT-tools/defaults/wpa_supplicant_profiles.yml` with the following command
 ```
@@ -28,7 +28,7 @@ ansible-vault edit ansible-playbook-pssid-daemon/roles/ansible-role-pssid-VT-too
 1. These are usually layer 2 errors that weren't caught because layer 2 has marginally unhelpful error output and false positives
 2. Especially if the error has something to do with a time out waiting for a carrier, it is most likely a layer 2 issue
 3. If it truly is layer 3, double check to ensure that both `pssid-80211` and `pssid-dhcp` are executable (you can check with `ls -la` and modify with `chmod +x <file>`)
-### Service Not Starting (Restart Limit)
+## Service Not Starting (Restart Limit)
 1. This is usually because something is preventing the daemon from running correctly, and systemctl restarts it multiple times in quick succession as essentially gets rate limited by its own configuration
 2. Run the daemon code by hand to see if there is any error output
 ```
