@@ -1,6 +1,7 @@
 # PXE Booting Deployment
 
-> [!Note] This documentation is a work in progress
+> [!NOTE] 
+> This documentation is a work in progress
 
 ## Booting Setup
 - rpi-eeprom should already be installed (ubuntu for the raspberry pi)
